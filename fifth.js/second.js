@@ -1,6 +1,6 @@
 document.querySelector('#discover')
     .addEventListener('click' , function(){
-         window.location.href= "./sub.html"
+         window.location.href= "./second.html"
 
 
 
