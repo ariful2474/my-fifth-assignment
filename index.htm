@@ -3,9 +3,259 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Fifth Assignment</title>
+    <title>Document</title>
+    <!-- daisy ui linking -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.9/daisyui.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
-    
+<body class="bg-[#F4F7FF] ">
+    <!-- header section -->
+    <section class="pt-8">
+        <!-- container -->
+         <div class="container mx-auto ">
+            <!-- main div -->
+             <div class="flex justify-between bg-white py-5 px-4 rounded-lg">
+                <div class="flex justify-center items-center">
+                    <img src="assets/logo.png" alt="">
+                    
+                    <div class="pl-5">
+                        <h1 class="text-xl">Dev <span class="text-[#00303C] font-extrabold text-xl">Board</span></h1>
+                    </div>
+                </div>
+                <!-- right div -->
+                <div class="flex justify-between items-center gap-10">
+                    <div class="flex gap-3 justify-center items-center  bg-[#F4F7FF] px-5 py-2 borde rounded-3xl">
+                    <div><img class="w-[100%]" src="assets/checkbox.png" alt=""></div>
+                    <p class="text-3xl font-bold"><span id="incrise">23</span></p>
+                    </div>
+                    <div>
+                        <button id="bg-color" class="cursor-pointer bg-[#F4F7FF] p-2 rounded-full"><img src="assets/theme-btn.png" alt=""></button>
+                    </div>
+                </div>
+             </div>
+
+         </div>
+
+    </section>
+    <!-- banner section -->
+     <section class="mt-8">
+     <div class="container mx-auto   bg-white">
+        <!-- main grid -->
+        <div class="grid grid-cols-1 md:grid-cols-[75%_25%] gap-4">
+            <!-- 90% -->
+            <div>
+                <!-- frist top -->
+                 <div class="grid grid-cols-4 p-8 gap-8">
+                    <div class="flex gap-x-6  justify-center items-center p-5 bg-[#F4F7FF]">
+                        <div>
+                            <img class="w-100%" src="assets/checkbox.png" alt="">
+                        </div>
+                        <div>
+                            <p>Task Assigned </p>
+                            <h1  class="font-bold text-3xl"><span id="decriss">06</span></h1>
+                        </div>
+                    </div>
+                    <div id="discover" class="col-span-2 bg-[#9BA8F8] rounded-md flex pl-10 gap-8 items-center py-5">
+                        <img src="assets/board.png" alt="">
+                        <h3 class="font-medium text-2xl text-white">Discover Something <br> New Today!</h3>
+
+                    </div>
+                    <div class="flex bg-[#F4F7FF] justify-center items-center gap-6 rounded-md">
+                        <div>
+                            <img src="assets/calender.png" alt="">
+                        </div>
+                        <div>
+                            <h2 class="font-medium text-xl">Wed , <br>
+                             Jul 28 2025 </h2>
+                    
+                        </div>
+                    </div>
+
+                 </div>
+                 <!-- main part  -->
+                  <div class="grid grid-cols-3 p-8 gap-8">
+                    <!-- child 1-->
+                    <div class=" bg-[#F4F7FF] p-8">
+                        <button class="bg-white p-2 text-base mb-4">ShopEase</button>
+                        <br>
+                        <h1 id="issue" class="font-medium text-2xl">Fix Mobile Button Issue </h1>
+                        <br> 
+                        <div class="bg-white p-4">
+                            <p class="text-[18px] text-[#000000]">Debug using Chrome <br> DevTools, check for overlapping...
+                                </p>
+
+                        </div>
+                        <br>
+                        <div class="border border-dashed"></div>
+                        <br>
+                        <div class="flex justify-between">
+                            <div>
+                            <p class="text-[#00303C]">Deadline</p>
+                            <h4>21 March 2025</h4>
+                            </div>
+                            <div>
+                                <button id="btn-1" class="btn px-10 py-5 bg-blue-600 text-white border-none font-medium text-base my-btn">Completed</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- child 2-->
+                    <div class=" bg-[#F4F7FF] p-8">
+                        <button class="bg-white p-2 text-base mb-4">CloudSync</button>
+                        <br>
+                        <h1 id="dark" class="font-medium text-2xl">Add Dark Mode </h1>
+                        <br>
+                        <div class="bg-white p-4">
+                            <p class="text-[18px] text-[#000000]">Store the user's preference in localStorage, update CSS var
+                                </p>
+
+                        </div>
+                        <br>
+                        <div class="border border-dashed"></div>
+                        <br>
+                        <div class="flex justify-between">
+                            <div>
+                            <p class="text-[#00303C]">Deadline</p>
+                            <h4>21 March 2025</h4>
+                            </div>
+                            <div>
+                                <button id="btn-2" class="btn px-10 py-5 bg-blue-600 text-white border-none font-medium text-base my-btn">Completed</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- child 3 -->
+                    <div class=" bg-[#F4F7FF] p-8">
+                        <button class="bg-white p-2 text-base mb-4">SwiftPay</button>
+                        <br>
+                        <h1 class="font-medium text-2xl">Optimize  Home page  </h1>
+                        <br>
+                        <div class="bg-white p-4">
+                            <p class="text-[18px] text-[#000000]">Debug using Chrome <br> DevTools, check for overlapping...
+                                </p>
+
+                        </div>
+                        <br>
+                        <div class="border border-dashed"></div>
+                        <br>
+                        <div class="flex justify-between">
+                            <div>
+                            <p class="text-[#00303C]">Deadline</p>
+                            <h4>21 March 2025</h4>
+                            </div>
+                            <div>
+                                <button id="btn-3" class="btn px-10 py-5 bg-blue-600 text-white border-none font-medium text-base my-btn">Completed</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- child 4-->
+                    <div class=" bg-[#F4F7FF] p-8">
+                        <button class="bg-white p-2 text-base mb-4">Meta</button>
+                        <br>
+                        <h1 class="font-medium text-2xl">Add new emoji 🤲 </h1>
+                        <br>
+                        <div class="bg-white p-4">
+                            <p class="text-[18px] text-[#000000]">Debug using Chrome <br> DevTools, check for overlapping...
+                                </p>
+
+                        </div>
+                        <br>
+                        <div class="border border-dashed"></div>
+                        <br>
+                        <div class="flex justify-between">
+                            <div>
+                            <p class="text-[#00303C]">Deadline</p>
+                            <h4>21 March 2025</h4>
+                            </div>
+                            <div>
+                                <button id="btn-4" class="btn px-10 py-5 bg-blue-600 text-white border-none font-medium text-base my-btn">Completed</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- child 5-->
+                    <div class=" bg-[#F4F7FF] p-8">
+                        <button class="bg-white p-2 text-base mb-4">Google LLC</button>
+                        <br>
+                        <h1 class="font-medium text-2xl">Integrate OpenAI API  </h1>
+                        <br>
+                        <div class="bg-white p-4">
+                            <p class="text-[18px] text-[#000000]">Debug using Chrome <br> DevTools, check for overlapping...
+                                </p>
+
+                        </div>
+                        <br>
+                        <div class="border border-dashed"></div>
+                        <br>
+                        <div class="flex justify-between">
+                            <div>
+                            <p class="text-[#00303C]">Deadline</p>
+                            <h4>21 March 2025</h4>
+                            </div>
+                            <div>
+                                <button id="btn-5" class="btn px-10 py-5 bg-blue-600 text-white border-none font-medium text-base my-btn">Completed</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- child 6-->
+                    <div class=" bg-[#F4F7FF] p-8">
+                        <button class="bg-white p-2 text-base mb-4">Glassdoar</button>
+                        <br>
+                        <h1 class="font-medium text-2xl">Improve Job searching  </h1>
+                        <br>
+                        <div class="bg-white p-4">
+                            <p class="text-[18px] text-[#000000]">Debug using Chrome <br> DevTools, check for overlapping...
+                                </p>
+
+                        </div>
+                        <br>
+                        <div class="border border-dashed"></div>
+                        <br>
+                        <div class="flex justify-between">
+                            <div>
+                            <p class="text-[#00303C]">Deadline</p>
+                            <h4>21 March 2025</h4>
+                            </div>
+                            <div>
+                                <button id="btn-6" class="btn px-10 py-5 bg-blue-600 text-white border-none font-medium text-base my-btn">Completed</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                  </div>
+
+            </div>
+            <!-- 10% -->
+            <div id="bg-color-2 " class="pl-8 bg-[#F4F7FF] ">
+               <div class="min-h-screen bg-white p-8 ">
+                <div class="flex justify-center items-center gap-4">
+                    <img src="assets/activity.png" alt="">
+                    <p class="font-medium text-xl">Activity Log</p>
+                </div>
+                <div class="text-center mt-4">
+                    <button id="btn-delete" class="btn px-10 py-5 bg-blue-600 text-white border-none font-medium text-base">Clear History</button>
+                </div>
+                <br>
+                <!-- transection histry  -->
+                <div id="transectin-histry" class=" text-center rounded-lg space-y-4">
+                   
+                     
+                    
+
+                </div>
+               </div>
+               
+            </div>
+
+        </div>
+
+     </div>
+
+     </section>
+     
+     
+
+      <script src="fifth.js/bg.js"></script>
+      <script src="fifth.js/toggole.js"></script>
+      <script src="fifth.js/histry.js"></script>
+      <script src="fifth.js/second.js"></script>
 </body>
 </html>
